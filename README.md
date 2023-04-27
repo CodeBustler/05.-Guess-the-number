@@ -1,3 +1,3 @@
-# 05.-Guess-the-number
+guessTheNumber
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-hmpnub)
