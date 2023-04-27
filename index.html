@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/81d73e8e4d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Guess The Number</h1>
+    <main class="container">
+      <h2>Game Started</h2>
+      <div class="gameInfo">
+        <p>
+          Computer Generated Number<br />
+          Guess the number! (1-100)
+        </p>
+        <div id="display">Result</div>
+      </div>
+      <input
+        type="text"
+        placeholder="Guess Number"
+        id="userInput"
+        maxlength="2"
+      />
+      <button onclick="startGame()">Submit</button>
+      <button onclick="reset()">
+        Play Again <i class="fa-solid fa-rotate-right"></i>
+      </button>
+    </main>
+    <footer>
+      <a href="https://www.instagram.com/codebustler">By CodeBustler</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+/* Play Here */
+
+.container {
+  width: 400px;
+  border-radius: 10px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  box-shadow: 10px 10px 10px grey;
+  border: 1px grey solid;
+}
+
+h2 {
+  width: 100%;
+  padding: 15px;
+  position: absolute;
+  top: -20px;
+  border-radius: 10px 10px 0 0;
+  animation-name: startedAnim;
+  animation-duration: 2s;
+  box-sizing: border-box;
+  color: white;
+}
+
+@keyframes startedAnim {
+  0% {
+    font-size: 22px;
+  }
+  50% {
+    font-size: 27px;
+  }
+
+  100% {
+    font-size: 22px;
+  }
+}
+
+.gameInfo {
+  padding-top: 50px;
+}
+
+.gameInfo p {
+  background-color: rgba(37, 25, 25, 0.397);
+  font-size: 20px;
+  padding: 10px 0;
+  font-weight: bold;
+  color: white;
+}
+
+#display {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  font-size: larger;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-size: larger;
+  margin: 20px 0;
+  border: none;
+  outline: none;
+}
+
+button {
+  width: 40%;
+  margin: 20px 0;
+  padding: 10px 15px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+i {
+}
