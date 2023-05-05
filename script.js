@@ -1,6 +1,6 @@
 // Random Number Generate
 let randomNumber = Math.floor(Math.random() * 100);
-console.log(randomNumber);
+// console.log(randomNumber);
 
 function startGame() {
   let userNumber = parseInt(document.getElementById('userInput').value);
